@@ -28,11 +28,11 @@ const WhyBlock = () => {
             </div>
             <div className='flex flex-col mt-8 xl:gap-4 xl:flex-row'>
             <SubtextComponent
-                    className="mt-4 mb-4 xl:mt-72 xl:ml-60 bg-white p-2 rounded-md bg-opacity-90 md:bg-transparent"
+                    className="mt-4 mb-4 xl:mt-72 2xl:ml-60 bg-white p-2 rounded-md bg-opacity-90 md:bg-transparent"
                     subHeader="Start speaking confidently"
                     text="Teachers will mainly speak the learning-language in class, so you get comfy with the language fast."
             />
-            <img src={Image3} alt="" className='xl:mr-20'/>
+            <img src={Image3} alt="" className='2xl:mr-20'/>
             </div>
         </Container>
         </div>

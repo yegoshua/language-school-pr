@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Container from "../../components/Container";
 import LogoImage from "../../assets/img/logo.png";
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
     const [payload, setPayload] = useState({
@@ -17,10 +18,10 @@ const SignUp = () => {
     return (
         <Container className="h-screen flex flex-col">
             <div className='flex flex-col sm:flex-row w-full justify-between py-3'>
-                <div className='flex items-center justify-center'><img src={LogoImage} alt="" /></div>
+            <Link to="/"><div className='flex items-center justify-center'><img src={LogoImage} alt="" /></div></Link>
                 <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <p className='font-medium'>Already have an account ?</p>
-                    <button className='bg-accent-blue text-white px-5 py-2 rounded-lg'>Login</button>
+                    <Link to="/sign-in"><button className='bg-accent-blue text-white px-5 py-2 rounded-lg'>Login</button></Link>
                 </div>
             </div>
             <div className='flex items-center justify-center h-full sm:p-0 px-4'>

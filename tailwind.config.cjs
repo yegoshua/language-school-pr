@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'accent-blue': '#00DDDD',
+        'bg-col-var1': '#ECEFFF',
+        'card-level': '#153BFF',
       },
     },
   },
