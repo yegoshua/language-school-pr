@@ -4,6 +4,8 @@ import SignIn from "./pages/SignIn/SignIn";
 import SignUp from "./pages/SignUp/SignUp";
 import About from "./pages/About/About";
 import Levels from "./pages/Levels/Levels";
+import Themes from "./pages/Themes/Themes";
+import Words from "./pages/Words/Words";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
 			<Route path="/sign-in" element={<SignIn/>}/>
 			<Route path="/sign-up" element={<SignUp/>}/>
             <Route path="/levels" element={<Levels/>}/>
+            <Route path="/themes" element={<Themes/>}/>
+            <Route path="/words" element={<Words/>}/>
         </Routes>
     );
 }
