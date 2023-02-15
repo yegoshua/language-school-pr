@@ -15,7 +15,7 @@ const Header = () => {
                     <li className='hover:border-b-2 hover:border-accent-blue cursor-pointer trans transition-all'><Link to="/about">About Us</Link></li>
                     <li className='hover:border-b-2 hover:border-accent-blue cursor-pointer trans transition-all'><Link to="/themes">Themes</Link></li>
                     <li className='hover:border-b-2 hover:border-accent-blue cursor-pointer trans transition-all'><Link to="/words">Words</Link></li>
-                    {/* <li className='hover:border-b-2 hover:border-accent-blue cursor-pointer trans transition-all'><Link to="/sign-in">Log in</Link></li> */}
+                    <li className='hover:border-b-2 hover:border-accent-blue cursor-pointer trans transition-all'><Link to="/teachers">Our Teachers</Link></li>
                 </ul>
             </div>
         </Container>

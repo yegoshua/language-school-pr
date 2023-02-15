@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import Levels from "./pages/Levels/Levels";
 import Themes from "./pages/Themes/Themes";
 import Words from "./pages/Words/Words";
+import Teachers from "./pages/Teachers/Teachers";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/levels" element={<Levels/>}/>
             <Route path="/themes" element={<Themes/>}/>
             <Route path="/words" element={<Words/>}/>
+            <Route path="/teachers" element={<Teachers/>}/>
         </Routes>
     );
 }
